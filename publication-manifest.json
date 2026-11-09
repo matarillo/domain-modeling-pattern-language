@@ -1,0 +1,215 @@
+{
+  "format": 1,
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "sha256": "1e4b572051dbf1988bc7f501d18da22b5fe193a5b00ce3d2c762985cc28f06ce",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.md",
+      "sha256": "a802abb8a7201e3526f33df46d2f9f04c76c87af725fd96225b17ce071e88f49",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "LICENSES/CC0-1.0.md",
+      "sha256": "4f0a18591a7606c48435c6da1a49f47fecac4599a6b2960abd041431dd0c6401",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "sha256": "671e22a551f971bcbbcfb49b389b236faa7ebd77d5981e78e790c77f95f9ea51",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/document-system.md",
+      "sha256": "f1429fb30120d30d3c229b53cf3490547e73df38bb776c8eab9a8bc57f59707d",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/glossary.md",
+      "sha256": "9336742b99b1b7a8be67a9755834fc8f223e8ac41bc05b92fecce897e8cb605a",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/notation.md",
+      "sha256": "92273017d9362702e76d5d7e7555112fa1b542d4bcbba0fc1f5baa5c957b194c",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/pattern-language.md",
+      "sha256": "2db1ffe9ade1ac28558c55903fef817016ebcfc32bd5e323da994327e110d357",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/processes.md",
+      "sha256": "031e6defa804387f64e4df51b0b2017bd3acbc7f5614d9931c1afdc5ac6342da",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/related-methods.md",
+      "sha256": "bde98727073e3b9f9223b8558680ac2a82372489888876a449c1697cdf49444f",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/order-credit/AGENTS.md",
+      "sha256": "b487a2f091e5a5b0fb5bfc4fee9d53c06fc4bfc9cd11568cfa85860af1bbeffa",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/order-credit/README.md",
+      "sha256": "b6e2cb36fac29d4b4f8de9905cecf214de8580a4407d992cb6dfa63ec5907b59",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/order-credit/docs/README.md",
+      "sha256": "769cdd77f42577557b485deefeb620dadbc79433397d98b9c31369c2380e3fdd",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/order-credit/docs/architecture/README.md",
+      "sha256": "aac67820070a46157dd4fe5f254933e6f61ade53eb31d97da516982bac9a82ec",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/order-credit/docs/domain/contexts.md",
+      "sha256": "08dfe7e270c21c069061e20e3cd0301233c7a5d151ee86947cc075d4ca3a5a68",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/order-credit/docs/domain/facts.md",
+      "sha256": "4b74cdabdc780a57eb9e4658672c705b78f7dce4e1cee47686bc34a700d42fd8",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/order-credit/docs/domain/glossary.md",
+      "sha256": "36fd2764e2225fff6185167e84c8ee7e7b10dc001dfceaaad55d006e30cb3ed3",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/order-credit/docs/domain/lifecycles.md",
+      "sha256": "00344e8f15b26353de721c0db417b98400a5725c6e49df49c66e41fa019fb833",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/order-credit/docs/domain/rules.md",
+      "sha256": "6ad7bb138b827e7993ee74e584c21a2035f489b4de878a387d54839f1297d0c1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/order-credit/docs/product/goals.md",
+      "sha256": "4986fed3d394f1b77ba94bdb6c09f12527de161553cef9d7f634a7a89c98b266",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/order-credit/docs/product/quality.md",
+      "sha256": "726e54e33ded0c0ed4a6725e3b3b3b744c9ab2cc86d2a8d55732beab1f349dec",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/order-credit/docs/product/upstream/README.md",
+      "sha256": "d89b8945c771d9da2f5dbbf3d824ccdf771eac8e073d0cc0d9e548a982afcb05",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/order-credit/docs/product/upstream/requirements.md",
+      "sha256": "cd45d1aeca951dd79b0fdb78eb37670042a5b51bc72cdc199ee1121502a71e2b",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/order-credit/docs/questions.md",
+      "sha256": "ee57fb86c23cdf3746754e44b31de0317c13e30d9f50e2c5d307335587dcd7ca",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/order-credit/input/requirements.md",
+      "sha256": "cd45d1aeca951dd79b0fdb78eb37670042a5b51bc72cdc199ee1121502a71e2b",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "templates/AGENTS.md",
+      "sha256": "555e5898384523c3866e372e03a5b543e7c65f503ed43b0009062273157c94a4",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "templates/docs/README.md",
+      "sha256": "40fca50260b24d2aeb9b96adfb0ac3e64b8e8a1c2a080ba34f8d08ab293a0a1e",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "templates/docs/architecture/README.md",
+      "sha256": "e2dff8dc727ce932a9b1b97987331326afc1bb7890f5d3904678db20bb77c27b",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "templates/docs/decisions/DR-0000-template.md",
+      "sha256": "1ade3080a0c709ee0b9a1b804b4148f4185cbf664a52817dbece4111973a0918",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "templates/docs/design/model/context-template.md",
+      "sha256": "63e79c0a491c93b1584c9963c5a0be10ce3fc4531738db96a6fa262d5c40ae83",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "templates/docs/design/model/issues.md",
+      "sha256": "bc74ad7692160b5e0ccf550d1f3949e85f1bda32f7190beb8b2fba1728cb3a08",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "templates/docs/design/model/shared.md",
+      "sha256": "53cd0cdd5f2de8491e17183afe4ef5be524d4a7acfbb717832a2e3c20bd734d4",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "templates/docs/domain/contexts.md",
+      "sha256": "448e5430dbc150b01ab679057bec28a6c8f81d403a85aef8e5cb257ff193f497",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "templates/docs/domain/facts.md",
+      "sha256": "39130a05f3fd3a23e0ecb59121bb1081ff14d67b88c48eb4fbadd2643ad5f0ff",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "templates/docs/domain/glossary.md",
+      "sha256": "cfe06edc7563cf01a8cfbdf7747637823a60b6d8dfeb0de13860aa246d5ddbde",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "templates/docs/domain/lifecycles.md",
+      "sha256": "158d53e8fa37b689676568f438fa9580feeaf3803f10726def77d078865f5350",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "templates/docs/domain/rules.md",
+      "sha256": "472e9930e0be3141cca6f18e303b96be1fb3cb04670d82549dac8f0dca3a45c2",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "templates/docs/product/goals.md",
+      "sha256": "89f467e45043ae8eebf9759db3ad81e5be52602be6e801c62ca2edf28f4869e9",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "templates/docs/product/quality.md",
+      "sha256": "2825cdbbd49becf512036f16ec8ef8e849158139ba2c9ce10d7c436a35725e4f",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "templates/docs/product/upstream/README.md",
+      "sha256": "08e2f2bc950d55a1fce0beb0d0f12ee9300e2b68a2f8b0296c8f275b92ab003a",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "templates/docs/questions.md",
+      "sha256": "66e4fc1442d7874379b0e583ed507298acd033845214f641a77006a0ed3ad832",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "templates/docs/spec/README.md",
+      "sha256": "5db93c50f4823fc0ee0469148b87394288bc5a0f86ab07bf986cee16602caf0d",
+      "license": "CC0-1.0"
+    }
+  ]
+}
