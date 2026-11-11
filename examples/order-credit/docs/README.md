@@ -14,6 +14,7 @@ docs/
 │   ├─ glossary.md          用語
 │   ├─ contexts.md          サブドメイン、境界づけられたコンテキスト、コンテキストマップ、受け渡しの約束
 │   ├─ facts.md             業務上の事実と、事実の流れ
+│   ├─ things.md            業務の対象と、その形（何から成り、何で見分けるか）
 │   ├─ rules.md             業務ルール、判定と許される答え、例、ルールがない領域
 │   └─ lifecycles.md        業務の状態の移り変わり（状態遷移表）
 └─ architecture/        アーキテクチャ設計
@@ -42,7 +43,7 @@ AGENTS.md               AI 向けの規律（リポジトリの直下）
 | `POL-` | 差し替えられる判断 | `design/model/` |
 | `ISSUE-` | 設計課題 | `design/model/issues.md` |
 
-- 境界づけられたコンテキスト、業務上の事実、業務の状態は、名前そのものを識別子として使う。名前を定義する文書は、それぞれ `domain/contexts.md`、`domain/facts.md`、`domain/lifecycles.md` である。
+- 境界づけられたコンテキスト、業務上の事実、業務の対象、業務の状態は、名前そのものを識別子として使う。名前を定義する文書は、それぞれ `domain/contexts.md`、`domain/facts.md`、`domain/things.md`、`domain/lifecycles.md` である。
 - 識別子の中には、業務の領域の略称を入れる。この製品では `ORDER`（受注）と `CREDIT`（与信）を使う。
 - 番号は、項目を消しても再び使わない。
 
@@ -50,6 +51,6 @@ AGENTS.md               AI 向けの規律（リポジトリの直下）
 
 | 読み手 | 読む順 |
 | --- | --- |
-| 顧客 | `product/goals.md` → `questions.md`（決めてほしいこと） → `domain/rules.md` → `domain/lifecycles.md` |
-| 開発チーム | `product/goals.md` → `domain/glossary.md` → `domain/contexts.md` → `domain/facts.md` → `domain/rules.md` → `domain/lifecycles.md` → `architecture/README.md` |
+| 顧客 | `product/goals.md` → `questions.md`（決めてほしいこと） → `domain/facts.md`（事実の流れ） → `domain/things.md` → `domain/rules.md` → `domain/lifecycles.md` |
+| 開発チーム | `product/goals.md` → `domain/glossary.md` → `domain/contexts.md` → `domain/facts.md` → `domain/things.md` → `domain/rules.md` → `domain/lifecycles.md` → `architecture/README.md` |
 | 文書を書く AI | `../AGENTS.md` → この文書 → `questions.md` → `product/upstream/`（原文） |

@@ -12,7 +12,7 @@
 
 | 文書 | 中身 |
 | --- | --- |
-| [docs/pattern-language.md](docs/pattern-language.md) | 価値基準、大原則、35 のパターン、18 のアンチパターン |
+| [docs/pattern-language.md](docs/pattern-language.md) | 価値基準、大原則、36 のパターン、19 のアンチパターン |
 | [docs/document-system.md](docs/document-system.md) | 文書格納体系：どの文書を、どこに、どの単位で置くか。識別子、印、判断記録、アーキテクチャ設計の置き場 |
 | [docs/processes.md](docs/processes.md) | 入口ごとの手順、組み合わせ方、問いかけの型の目録 |
 | [docs/notation.md](docs/notation.md) | 表記法：表、記法の部分集合と全体、論理型 |
@@ -20,6 +20,7 @@
 | [docs/related-methods.md](docs/related-methods.md) | 既知の手法との関係（採る、条件付きで採る、採らない）と参考文献 |
 | [templates/](templates/) | 文書の骨組み。プロジェクトに写して使う（CC0 1.0。写すときに出典の表示は要らない） |
 | [examples/order-credit/](examples/order-credit/) | 例題「受注と与信」の入力（要求資料）と、整理された要求から入る手順で書いた文書 |
+| [examples/repair-intake/](examples/repair-intake/) | 例題「家電の修理受付」の入力（要求資料、帳票の様式、画面の案、いまのテーブル、AI が作った試作）と、それらを手がかりに業務の対象の形を書いた文書 |
 
 ## 読み方
 
@@ -35,7 +36,7 @@
 - 扱うのは、ドメインの文書の置き場と書き方、アーキテクチャ設計の置き場と最小の中身、ドメイン設計との接点である。アーキテクチャ設計の手法（技術の選び方や評価の手順）と、ドメイン駆動設計の全般の解説は扱わない。
 - 戦略と組織の設計（どこに投資するか、チームをどう分けるか）は扱わない。接する所だけを、[related-methods.md](docs/related-methods.md) §5 に示す。
 - パターンの確かさは、星と「確かめた範囲」で示している。星の意味は [pattern-language.md](docs/pattern-language.md) §5 にある。
-- ワークショップから入る手順と、顧客が記法の部分集合を読めるかどうかは、仮説である。人による試用では確かめていない。
+- ワークショップから入る手順、画面と帳票を手がかりにする手順、既存のコードの歪みの点検表、顧客が記法の部分集合と業務の対象の形の表を読めるかどうかは、仮説である。人による試用では確かめていない。
 
 ## 関連するリポジトリ
 

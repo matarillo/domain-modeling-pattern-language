@@ -126,7 +126,24 @@
 | --- | --- | --- | --- |
 | ドメインを AND と OR で書く記法 [Wlaschin 2024 §2.4] | 採る | 記法の部分集合と全体の元にする | MP-28 |
 | 業務の概念を表すためのミニ言語 [kawasima 2021] | 採る | 記法の全体の元にする | MP-28 |
+| 似た二つの形の違いを、必ずある情報、許されない状態、業務の段階の三つで確かめる [kawasima 2021] | 採る | 一つの用紙を二つの業務が使うときの問いにする | MP-36、AP-19 |
 | 型を顧客向けの文書にする（コードがそのまま設計書になる）[Wlaschin 2024 ch.5] | 採らない | 実装技術に依存する。顧客が型を読めることは、確かめられていない（伝わりやすさ、合意の見分け） | MP-28 |
+
+### 2.6 画面と帳票から業務の情報をつかむ手法
+
+| 要素 | 採否 | 条件と理由 | パターン |
+| --- | --- | --- | --- |
+| 情報ごとに、どこから来てどこへ行くか、何に使うかを確かめる [Dymitruk 2019]、[Lauesen 2002 §2.3] | 一部を採る | 確かめ方と問いを採る。画面と出来事を時間の順に並べる図そのものは、文書にしない（会話の作成物は残さない） | MP-36、AP-19 |
+| データだけを描いた簡略な画面に、現実的なデータと極端なデータを入れて、顧客と確かめる [Lauesen and Harning 2001]、[Lauesen 2005 ch.6] | 一部を採る | データモデルを顧客に深くレビューしてもらうのはほとんどできず、現実的な値を入れたものなら確かめられる、という知見を採る。業務の対象ごとに値を入れた見本を置き、読み合わせを見本から始める。画面の設計そのものは、この文書群の範囲の外である（伝わりやすさ） | MP-27、MP-36 |
+| 利用者が描いたフォームと標本のデータから、制約の候補を出し、利用者が明示的に採ったものだけを加える [Ramdoyal 2010] | 一部を採る | 値を入れた見本から、業務ルールの候補を AI が問いとして出し、顧客が採ったものだけを決定にする（判断の権限）。道具は前提にしない。一つの用紙あたり、一度に 3〜5 件を超えると続かなかったという観察を、値を入れた見本の数の上限の目安にする | MP-36 |
+| 画面とデータとタスクを、作る、読む、直す、消す、見渡すの表で突き合わせる [Lauesen 2005 ch.6] | 採らない | 常に置く表にすると重い（少ない量）。作る場面のない対象がないか、という問いだけを、値がどこから来るかの確かめに含める | — |
+| 試作には意図しない振る舞いが混じる。試作から得る要求を、機能の水準と画面の水準に分ける [Ravid and Berry 2000]、[Lauesen 2002 §8.2.11] | 採る | 試作を手がかりとして扱い、画面の水準にできるのは、利用者が実際の仕事で確かめた試作だけとする。試作の意図を書く文書は足さない（合意の見分け、少ない量） | MP-12、AP-08、AP-19 |
+| 目的の文の名詞からオブジェクトを抜き、カレンダーや地図は一覧の見せ方として扱う [Prater 2015] | 一部を採る | 一覧の見せ方の名前を、業務の対象として用語集に載せない規則を採る。オブジェクトの地図を、顧客と共有する文書にすることは採らない（業務上の事実を軸にしたデータモデルへの写しやすさ） | MP-18、MP-24 |
+| 利用者に見せる概念モデルに、表示だけのもの、実装だけのものを入れない [Johnson and Henderson 2013] | 採る | 業務の対象の形に、作りの情報を書かない規則にする | MP-36 |
+| 既存の作りに残る歪みの徴候（テーブルの印で二つの業務を区別する、現実にない基底のクラス、更新日時、後から埋まる参照、印の組み合わせで作る業務の意味、一つの項目に複数の意味） [Wlaschin 2024 §2.2、§2.3]、[kawasima n.d.a]、[kawasima n.d.b]、[IPA 2019 §7] | 採る | 既存のコードから入るときの点検表と、顧客への問いにする。データの持ち方そのものは、[data-modeling-pattern-language](https://github.com/matarillo/data-modeling-pattern-language) の範囲である | MP-17、AP-19 |
+| ワークフローに関わるデータの形を、コンテキストごとに書き、ドメインエキスパートと一緒に作業する [Wlaschin 2024 §2.4] | 一部を採る | 業務の対象の形を、`domain/things.md` にコンテキストごとに書く。書き方は、ブロックではなく表を主にする（伝わりやすさ） | MP-36 |
+| 値と、変わっても同じものとして扱うものを、会話の言い回しで見分ける [Wlaschin 2024 §5.6、§5.7] | 採る | 業務の対象について、同じ対象とみなす条件を確かめる問いにする | MP-36 |
+| 画面の項目を書き出して、エンティティに振り分ける [羽生 2015] | 採らない | 画面の項目の並びが、そのまま業務の対象の形になりやすい（AP-19）。項目は、値がどこから来るかで、事実、受け渡しの約束、業務ルールに振り分ける | AP-19 |
 
 ## 3. 文書化とアーキテクチャの記述
 
@@ -144,7 +161,7 @@
 | リポジトリ | 何か | このパターンランゲージとの関係 |
 | --- | --- | --- |
 | [fsharp-application-design](https://github.com/matarillo/fsharp-application-design) | 関数型アーキテクチャの設計指針 | 判断の結果を値で返す、拒否の理由を型にする、読み・判断・書き出しを分ける、という指針に写せるよう、判定と許される答え（MP-22）、取りうる形の列挙（MP-28）を書く |
-| [data-modeling-pattern-language](https://github.com/matarillo/data-modeling-pattern-language) | 業務上の事実の不変性を重視するデータモデルのパターンランゲージ | 業務上の事実の分類、取消と訂正を新しい事実で表すこと、事実から状態を導くこと、時間の軸を分けること、事実の所有者と境界の間の約束に写せるよう、事実の背骨（MP-18）と受け渡しの約束（MP-20）を書く |
+| [data-modeling-pattern-language](https://github.com/matarillo/data-modeling-pattern-language) | 業務上の事実の不変性を重視するデータモデルのパターンランゲージ | 業務上の事実の分類、取消と訂正を新しい事実で表すこと、事実から状態を導くこと、時間の軸を分けること、事実の所有者と境界の間の約束に写せるよう、事実の背骨（MP-18）と受け渡しの約束（MP-20）を書く。業務の対象の種類（出来事の記録か、続いて在るものか）は、資源とイベントの分け方を引く（MP-36） |
 
 - **対立**：判断記録の扱いで、fsharp-application-design の文書方針と対立する。
   - fsharp-application-design は、文書方針（`[fsharp-application-design@59e827c docs/README.md]` §4）で、判断ごとの記録を標準の成果物にせず、人の明示の指示なしに AI が ADR を作ることを禁じている。
@@ -206,6 +223,7 @@ Architecture for Flow は、Wardley Mapping による事業戦略、DDD によ�
 | DDD Crew 2020a | DDD Crew | Context Mapping | 2020 | web | https://github.com/ddd-crew/context-mapping | 全文 |
 | DDD Crew 2020b | DDD Crew | Domain Message Flow Modelling | 2020 | web | https://github.com/ddd-crew/domain-message-flow-modelling | 全文 |
 | DDD Crew 2022 | DDD Crew | Aggregate Design Canvas | 2022 | web | https://github.com/ddd-crew/aggregate-design-canvas | 全文 |
+| Dymitruk 2019 | Adam Dymitruk | Event Modeling: What is it? | 2019 | article | https://eventmodeling.org/posts/what-is-event-modeling/ | 全文 |
 | Evans 2015 | Eric Evans | Domain-Driven Design Reference: Definitions and Pattern Summaries | 2015 | book | https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf | 全文 |
 | Evans and Fowler 1997 | Eric Evans、Martin Fowler | Specifications | 1997 | paper | https://martinfowler.com/apsupp/spec.pdf | 全文 |
 | Feathers 2016 | Michael Feathers | Characterization Testing | 2016 | blog | https://michaelfeathers.silvrback.com/characterization-testing | 全文 |
@@ -214,14 +232,24 @@ Architecture for Flow は、Wardley Mapping による事業戦略、DDD によ�
 | Hofer and Schwentner 2026a | Stefan Hofer、Henning Schwentner | Domain Storytelling — Quick-Start Guide | 2026 | web | https://domainstorytelling.org/quick-start-guide | 全文 |
 | Hofer and Schwentner 2026b | Stefan Hofer、Henning Schwentner | Requirements with Domain Storytelling | 2026 | web | https://domainstorytelling.org/requirements | 全文 |
 | Hruschka and Starke n.d. | Peter Hruschka、Gernot Starke | arc42 | — | web | https://docs.arc42.org/home/ | 節の名前 |
+| IPA 2019 | 独立行政法人 情報処理推進機構 | ユーザのための要件定義ガイド 第2版 要件定義を成功に導く128の勘どころ | 2019 | book | https://www.ipa.go.jp/archive/publish/tn20191220.html | 第 7 章のうち、管理対象の分類、概念データモデル、画面と帳票のレイアウト、データ項目の仕様化 |
 | ISTQB 2024 | ISTQB | Certified Tester Foundation Level Syllabus v4.0.1（4.2.4 State Transition Testing） | 2024 | spec | https://www.istqb.org/wp-content/uploads/2024/11/ISTQB_CTFL_Syllabus_v4.0.1.pdf | 該当の節 |
+| Johnson and Henderson 2013 | Jeff Johnson、Austin Henderson | Conceptual Models in a Nutshell | 2013 | article | https://boxesandarrows.com/conceptual-models-in-a-nutshell/ | 全文 |
 | Kaiser 2023 | Susanne Kaiser | Adaptive, Socio-Technical Systems with Architecture for Flow: Wardley Maps, DDD, and Team Topologies | 2023 | article | https://www.infoq.com/articles/adaptive-socio-technical-systems-flow/ | 全文 |
 | Kaiser 2025a | Susanne Kaiser | The Architecture for Flow Canvas | 2025 | web | https://architectureforflow.com/canvas/ | 全文 |
 | Kaiser 2025b | Susanne Kaiser | Architecture for Flow: Adaptive Systems with Domain-Driven Design, Wardley Mapping, and Team Topologies | 2025 | book | https://architectureforflow.com/ | 書誌、目次、序文（出版社のプレビュー）。本文は確かめていない |
 | Kaiser 2026 | Susanne Kaiser（著）、角征典（訳） | フロー指向アーキテクチャ | 2026 | book | https://www.ohmsha.co.jp/book/9784274235634.html | 書誌、詳細目次。発売予定日は 2026-11-17（2026-11-09 に確かめた） |
-| kawasima 2021 | kawasima | ドメイン記述ミニ言語 | 2021 | web | https://scrapbox.io/kawasima/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E8%A8%98%E8%BF%B0%E3%83%9F%E3%83%8B%E8%A8%80%E8%AA%9E | 冒頭と記法の要素 |
+| kawasima 2021 | kawasima | ドメイン記述ミニ言語 | 2021 | web | https://scrapbox.io/kawasima/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E8%A8%98%E8%BF%B0%E3%83%9F%E3%83%8B%E8%A8%80%E8%AA%9E | 冒頭、記法の要素、オプショナルとコレクションの節、フラグを OR で書く節、ほぼ同じ data の表現指針 |
+| kawasima n.d.a | kawasima | イミュータブルデータモデル | n.d. | web | https://scrapbox.io/kawasima/%E3%82%A4%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%96%E3%83%AB%E3%83%87%E3%83%BC%E3%82%BF%E3%83%A2%E3%83%87%E3%83%AB | 全文 |
+| kawasima n.d.b | kawasima | ニューレガシーアンチパターン | n.d. | web | https://scrapbox.io/kawasima/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%AC%E3%82%AC%E3%82%B7%E3%83%BC%E3%82%A2%E3%83%B3%E3%83%81%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3 | 全文（作業中と表示されたページ） |
+| Lauesen 2002 | Søren Lauesen | Software Requirements: Styles and Techniques | 2002 | book | — | 第 2 章、3.10、8.2.5、8.2.9〜8.2.12、9.2.3 |
+| Lauesen 2005 | Søren Lauesen | User Interface Design: A Software Engineering Perspective | 2005 | book | — | 4.5、5.2、第 6 章、16.6 |
+| Lauesen and Harning 2001 | Søren Lauesen、Morten Borup Harning | Virtual Windows: Linking User Tasks, Data Models, and Interface Design（IEEE Software の論文） | 2001 | article | — | 全文 |
 | Nygard 2011 | Michael Nygard | Documenting Architecture Decisions | 2011 | blog | https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions | 全文 |
 | OMG 2024 | Object Management Group | Decision Model and Notation (DMN) Version 1.5 | 2024 | spec | https://www.omg.org/spec/DMN/1.5/PDF | 決定要求ダイアグラム、ヒットポリシーの章 |
+| Prater 2015 | Sophia V. Prater | Object-Oriented UX | 2015 | article | https://alistapart.com/article/object-oriented-ux/ | 全文 |
+| Ramdoyal 2010 | Ravi Ramdoyal | Reverse Engineering User-Drawn Form-Based Interfaces for Interactive Database Conceptual Analysis: the RAINBOW Approach（博士論文） | 2010 | thesis | https://pure.unamur.be/ws/files/12203626/PDF_01_PhD_ramdoyal.pdf | 第 4〜6 章、第 8 章、14.1、14.3、第 16 章 |
+| Ravid and Berry 2000 | A. Ravid、D. M. Berry | A Method for Extracting and Stating Software Requirements that a User Interface Prototype Contains | 2000 | paper | https://cs.uwaterloo.ca/~dberry/FTP_SITE/reprints.journals.conferences/alonrv.prototyping.paper.pdf | 全文 |
 | Robinson 2006 | Ian Robinson | Consumer-Driven Contracts: A Service Evolution Pattern | 2006 | article | https://martinfowler.com/articles/consumerDrivenContracts.html | 全文 |
 | Ross 2024 | Ronald G. Ross | The Five Basic Skills of Discovering and Expressing Rules | 2024 | article | https://brcommunity.com/articles.php?id=c138 | 全文 |
 | Smart 2019 | John Ferguson Smart | Feature Mapping – a lightweight requirements discovery practice | 2019 | blog | https://johnfergusonsmart.com/feature-mapping-a-lightweight-requirements-discovery-practice-for-agile-teams/ | 全文 |
@@ -245,6 +273,7 @@ Architecture for Flow は、Wardley Mapping による事業戦略、DDD によ�
 | Wlaschin 2018 | Scott Wlaschin | Domain Modeling Made Functional | 2018 | book | https://pragprog.com/titles/swdddf/domain-modeling-made-functional/ | 書誌 |
 | Wlaschin 2024 | Scott Wlaschin（著）、猪股健太郎（訳） | 関数型ドメインモデリング | 2024 | book | https://tatsu-zine.com/books/domain-modeling-made-functional | 本文。節の番号はこの訳書による |
 | Wynne 2015 | Matt Wynne | Introducing Example Mapping | 2015 | blog | https://cucumber.io/blog/bdd/example-mapping-introduction/ | 全文 |
+| 羽生 2015 | 羽生章洋 | はじめよう！要件定義 〜ビギナーからベテランまで | 2015 | book | — | 第 12、15、16 章の一部 |
 
 ### 原著者の講演と対談の記録
 

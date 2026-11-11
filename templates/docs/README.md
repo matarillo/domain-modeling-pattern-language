@@ -17,6 +17,7 @@ docs/
 │   ├─ glossary.md          用語
 │   ├─ contexts.md          サブドメイン、境界づけられたコンテキスト、コンテキストマップ、受け渡しの約束
 │   ├─ facts.md             業務上の事実と、事実の流れ
+│   ├─ things.md            業務の対象と、その形（何から成り、何で見分けるか）
 │   ├─ rules.md             業務ルール、判定と許される答え、例、ルールがない領域
 │   └─ lifecycles.md        業務の状態の移り変わり（状態遷移表）
 ├─ spec/                仕様（外部設計）：ユースケース、画面、外部 API の振る舞い
@@ -50,7 +51,7 @@ AGENTS.md               AI 向けの規律
 | `POL-` | 差し替えられる判断 | `design/model/` |
 | `ISSUE-` | 設計課題 | `design/model/issues.md` |
 
-- 境界づけられたコンテキスト、業務上の事実、業務の状態は、名前そのものを識別子として使う。名前を定義する文書は、それぞれ `domain/contexts.md`、`domain/facts.md`、`domain/lifecycles.md` である。
+- 境界づけられたコンテキスト、業務上の事実、業務の対象、業務の状態は、名前そのものを識別子として使う。名前を定義する文書は、それぞれ `domain/contexts.md`、`domain/facts.md`、`domain/things.md`、`domain/lifecycles.md` である。
 
 ## 読み手ごとの入口
 

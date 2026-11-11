@@ -18,42 +18,42 @@
     },
     {
       "path": "README.md",
-      "sha256": "671e22a551f971bcbbcfb49b389b236faa7ebd77d5981e78e790c77f95f9ea51",
+      "sha256": "b4411c32933e0f708fe6f76d091d22b4c254391463671863932cd15967f3b571",
       "license": "CC-BY-4.0"
     },
     {
       "path": "docs/document-system.md",
-      "sha256": "f1429fb30120d30d3c229b53cf3490547e73df38bb776c8eab9a8bc57f59707d",
+      "sha256": "883d453e90e8003c866510e6a40329f750737bd2d6b86eb9d59da6a299598ead",
       "license": "CC-BY-4.0"
     },
     {
       "path": "docs/glossary.md",
-      "sha256": "9336742b99b1b7a8be67a9755834fc8f223e8ac41bc05b92fecce897e8cb605a",
+      "sha256": "024eaed7cbd0207c85db6970db02532ce3d2016b5eedd80e2d0b91c768db453e",
       "license": "CC-BY-4.0"
     },
     {
       "path": "docs/notation.md",
-      "sha256": "92273017d9362702e76d5d7e7555112fa1b542d4bcbba0fc1f5baa5c957b194c",
+      "sha256": "e293bbda57a15d03c6aaa645aa1206059ec6048a6f1f1deb5312cf87cfb4dc64",
       "license": "CC-BY-4.0"
     },
     {
       "path": "docs/pattern-language.md",
-      "sha256": "2db1ffe9ade1ac28558c55903fef817016ebcfc32bd5e323da994327e110d357",
+      "sha256": "c53b857a4228468edb4132eb68ade66b44aa7a52e17e603abd1f80f93ed2de7c",
       "license": "CC-BY-4.0"
     },
     {
       "path": "docs/processes.md",
-      "sha256": "031e6defa804387f64e4df51b0b2017bd3acbc7f5614d9931c1afdc5ac6342da",
+      "sha256": "cc1f19f4ae124634c9293d8d54c8f6605a2855a6c06075cd97f39446adc9c76e",
       "license": "CC-BY-4.0"
     },
     {
       "path": "docs/related-methods.md",
-      "sha256": "bde98727073e3b9f9223b8558680ac2a82372489888876a449c1697cdf49444f",
+      "sha256": "7d8eb18cf3c0036a0fa8f4481e6e4ce962faadf52c4f7e3d02d056ee5a653c8f",
       "license": "CC-BY-4.0"
     },
     {
       "path": "examples/order-credit/AGENTS.md",
-      "sha256": "b487a2f091e5a5b0fb5bfc4fee9d53c06fc4bfc9cd11568cfa85860af1bbeffa",
+      "sha256": "68825a8e6c15e27567bb9aefc9fee131aa6e7ca2d8afcb40b89b13a139c329e3",
       "license": "CC-BY-4.0"
     },
     {
@@ -63,7 +63,7 @@
     },
     {
       "path": "examples/order-credit/docs/README.md",
-      "sha256": "769cdd77f42577557b485deefeb620dadbc79433397d98b9c31369c2380e3fdd",
+      "sha256": "5fd73d781069a266ba7d5b12cef391dcf99cf84d189c349b48b703cb3ce3f943",
       "license": "CC-BY-4.0"
     },
     {
@@ -73,12 +73,12 @@
     },
     {
       "path": "examples/order-credit/docs/domain/contexts.md",
-      "sha256": "08dfe7e270c21c069061e20e3cd0301233c7a5d151ee86947cc075d4ca3a5a68",
+      "sha256": "9ba52a5f67f88c1e0ac2afd65b09d42faf24c5f8b54966cd79c0048326563b96",
       "license": "CC-BY-4.0"
     },
     {
       "path": "examples/order-credit/docs/domain/facts.md",
-      "sha256": "4b74cdabdc780a57eb9e4658672c705b78f7dce4e1cee47686bc34a700d42fd8",
+      "sha256": "28b7a199f6a57250ea49dc0f8872d01c23d0a0432a3ca3863f9f7af9f5bbf622",
       "license": "CC-BY-4.0"
     },
     {
@@ -88,12 +88,17 @@
     },
     {
       "path": "examples/order-credit/docs/domain/lifecycles.md",
-      "sha256": "00344e8f15b26353de721c0db417b98400a5725c6e49df49c66e41fa019fb833",
+      "sha256": "35780fea6536e2dbb31f014da3b3a1338733d62bc75af162cabf859b8fb3ca46",
       "license": "CC-BY-4.0"
     },
     {
       "path": "examples/order-credit/docs/domain/rules.md",
-      "sha256": "6ad7bb138b827e7993ee74e584c21a2035f489b4de878a387d54839f1297d0c1",
+      "sha256": "6d4ac5f2172fad6259fa905b1b3c5e06a623d53099d7358a833e19821010fafe",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/order-credit/docs/domain/things.md",
+      "sha256": "0786478a18f378d00e147f1070a766b8e5baf8390921ab825fad68d5ad689412",
       "license": "CC-BY-4.0"
     },
     {
@@ -118,7 +123,7 @@
     },
     {
       "path": "examples/order-credit/docs/questions.md",
-      "sha256": "ee57fb86c23cdf3746754e44b31de0317c13e30d9f50e2c5d307335587dcd7ca",
+      "sha256": "e87663f306df0ea71149fa660874ad3bd04d81506a994c010a0c4092eef61a55",
       "license": "CC-BY-4.0"
     },
     {
@@ -127,13 +132,98 @@
       "license": "CC-BY-4.0"
     },
     {
+      "path": "examples/repair-intake/AGENTS.md",
+      "sha256": "049dbcfbacbb0e738adbc70fb8a3a3f4642855b7a5dd172a6dd92fd39eb0fdb1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/repair-intake/README.md",
+      "sha256": "d8319a8852923d986b4bb3d7a39ba9a36195fb33037df7e99cc7b1ee1bde6d75",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/repair-intake/docs/README.md",
+      "sha256": "4477321cf0ed99186abada14fe455511e09cf60ca02af326b6001cbc94221700",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/repair-intake/docs/design/model/issues.md",
+      "sha256": "fdb8b4a16e28d15509f7b10904128a8b79f354244c2dbfd1a71dbb446a36b1ad",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/repair-intake/docs/design/model/修理受付.md",
+      "sha256": "ed486a2417afac60dc5e9b880fdbb144e90abe0f21f4cdb220c0fc865de4b19c",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/repair-intake/docs/domain/contexts.md",
+      "sha256": "0dc8c1969f86d6df1da81f31477d6d4b261cce3f94fb03c0c74dbee3cbb12c22",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/repair-intake/docs/domain/facts.md",
+      "sha256": "7bc0013f6461e2fa59f67576fa04d0cebcb1f6e7a722a624968cee699f930760",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/repair-intake/docs/domain/glossary.md",
+      "sha256": "b5015c4c4a2122511bbbf29d4fe796d3421466e2cce1e664461bf8f57d16d02d",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/repair-intake/docs/domain/lifecycles.md",
+      "sha256": "52677265baa263111b2fd6661bfab70bd11a86daf1a61c612530022e4b86ca43",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/repair-intake/docs/domain/rules.md",
+      "sha256": "f1c901ff9111aa8282210bf9608e25471f41eab33286ca948aee658c1f43c469",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/repair-intake/docs/domain/things.md",
+      "sha256": "7dee544c04708eff38e0badb28b4b6bbc0e5dee84a8c6be3d096f28eeef4cf2c",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/repair-intake/docs/product/upstream/README.md",
+      "sha256": "37510841acd5399642aa60a35da0c2a29f2cf6ff7b0212726e3fc91893339d3c",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/repair-intake/docs/product/upstream/repair-request-form.md",
+      "sha256": "bca10674855347262abbc40aa0fb5bc5b80ad37751a1ad428a6a804308b96bc5",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/repair-intake/docs/product/upstream/requirements.md",
+      "sha256": "d52eb6a09d00a3b5ab56235eb55223a15ced6fb0d814b7fc794d18a7ae201586",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/repair-intake/docs/questions.md",
+      "sha256": "0ed0f031a18cb906b49c7d82567c14f6755f73aadfb81f5d6529776c3d06dcdb",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/repair-intake/docs/spec/README.md",
+      "sha256": "8a27339d82ad41b764316364af5ff0a771f1f63f2700324fb33fdf7ca7e085ff",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "examples/repair-intake/input/materials.md",
+      "sha256": "95a4cc246288a97eaad497070318b160a4fa252f1cdc87ab95bfc5b5251949c4",
+      "license": "CC-BY-4.0"
+    },
+    {
       "path": "templates/AGENTS.md",
-      "sha256": "555e5898384523c3866e372e03a5b543e7c65f503ed43b0009062273157c94a4",
+      "sha256": "049dbcfbacbb0e738adbc70fb8a3a3f4642855b7a5dd172a6dd92fd39eb0fdb1",
       "license": "CC0-1.0"
     },
     {
       "path": "templates/docs/README.md",
-      "sha256": "40fca50260b24d2aeb9b96adfb0ac3e64b8e8a1c2a080ba34f8d08ab293a0a1e",
+      "sha256": "2e5bbed2863c1ceba13480b973eea3c38ca2eacb3ebbf7f9e86b570d44c239c4",
       "license": "CC0-1.0"
     },
     {
@@ -163,27 +253,32 @@
     },
     {
       "path": "templates/docs/domain/contexts.md",
-      "sha256": "448e5430dbc150b01ab679057bec28a6c8f81d403a85aef8e5cb257ff193f497",
+      "sha256": "c281799c17dc2d5d3254372d0d20f27cc298ebf994f19b6bf920e356e48a4627",
       "license": "CC0-1.0"
     },
     {
       "path": "templates/docs/domain/facts.md",
-      "sha256": "39130a05f3fd3a23e0ecb59121bb1081ff14d67b88c48eb4fbadd2643ad5f0ff",
+      "sha256": "0da380d29e717af4e12150ab9aa525429458a018f21e0b090f8ad817d3861529",
       "license": "CC0-1.0"
     },
     {
       "path": "templates/docs/domain/glossary.md",
-      "sha256": "cfe06edc7563cf01a8cfbdf7747637823a60b6d8dfeb0de13860aa246d5ddbde",
+      "sha256": "6c9e4f046a529722805acdd8ea670233731abc4a8a5bf6ec7c20e2c83737d121",
       "license": "CC0-1.0"
     },
     {
       "path": "templates/docs/domain/lifecycles.md",
-      "sha256": "158d53e8fa37b689676568f438fa9580feeaf3803f10726def77d078865f5350",
+      "sha256": "e05fdf21be392d5ae0b233c24738d06e74ff3052b77efe694b48082488941dee",
       "license": "CC0-1.0"
     },
     {
       "path": "templates/docs/domain/rules.md",
-      "sha256": "472e9930e0be3141cca6f18e303b96be1fb3cb04670d82549dac8f0dca3a45c2",
+      "sha256": "384bd604ba2a9bca3fb35b142586c574aedf019a16b89530ab07354341085a88",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "templates/docs/domain/things.md",
+      "sha256": "980fa5996bb31a8f2c15d9c078f5fdaca2d89161de5dac44fbec4cd332f618d2",
       "license": "CC0-1.0"
     },
     {
@@ -208,7 +303,7 @@
     },
     {
       "path": "templates/docs/spec/README.md",
-      "sha256": "5db93c50f4823fc0ee0469148b87394288bc5a0f86ab07bf986cee16602caf0d",
+      "sha256": "7dda4d73d661e6037af546af0647ddd434617b1bbaadecf9d9cc66655ae72f7d",
       "license": "CC0-1.0"
     }
   ]
