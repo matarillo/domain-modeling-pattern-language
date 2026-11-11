@@ -23,7 +23,7 @@
     },
     {
       "path": "docs/document-system.md",
-      "sha256": "883d453e90e8003c866510e6a40329f750737bd2d6b86eb9d59da6a299598ead",
+      "sha256": "bdad9de7fbe06ad2a0fb02258f3da770d50a947005e83ccb1d41e81ede1b5e5a",
       "license": "CC-BY-4.0"
     },
     {
@@ -38,12 +38,12 @@
     },
     {
       "path": "docs/pattern-language.md",
-      "sha256": "c53b857a4228468edb4132eb68ade66b44aa7a52e17e603abd1f80f93ed2de7c",
+      "sha256": "f7c202420cd0bd6486e0cd684ccbf8ba0657649aa873afc98b2a6d64156410c1",
       "license": "CC-BY-4.0"
     },
     {
       "path": "docs/processes.md",
-      "sha256": "cc1f19f4ae124634c9293d8d54c8f6605a2855a6c06075cd97f39446adc9c76e",
+      "sha256": "3d6a8da39789151fa209acb48cd812d56fa2a6680da9585efc77c8f4de57f600",
       "license": "CC-BY-4.0"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
       "path": "examples/order-credit/AGENTS.md",
-      "sha256": "68825a8e6c15e27567bb9aefc9fee131aa6e7ca2d8afcb40b89b13a139c329e3",
+      "sha256": "175024df3d5eb516d66b2958df55d69cd497819acfd4d3e623809fe220021564",
       "license": "CC-BY-4.0"
     },
     {
@@ -113,7 +113,7 @@
     },
     {
       "path": "examples/order-credit/docs/product/upstream/README.md",
-      "sha256": "d89b8945c771d9da2f5dbbf3d824ccdf771eac8e073d0cc0d9e548a982afcb05",
+      "sha256": "2cb8d1e9231502ef7a7ac4f7f532b1c6a73778332d50922efdb71c133917c1d0",
       "license": "CC-BY-4.0"
     },
     {
@@ -133,7 +133,7 @@
     },
     {
       "path": "examples/repair-intake/AGENTS.md",
-      "sha256": "049dbcfbacbb0e738adbc70fb8a3a3f4642855b7a5dd172a6dd92fd39eb0fdb1",
+      "sha256": "189409d9a3576c2bca853b2c9016879486a00c5af4155b5e4f1703fd04897b8e",
       "license": "CC-BY-4.0"
     },
     {
@@ -188,7 +188,7 @@
     },
     {
       "path": "examples/repair-intake/docs/product/upstream/README.md",
-      "sha256": "37510841acd5399642aa60a35da0c2a29f2cf6ff7b0212726e3fc91893339d3c",
+      "sha256": "a98a39ef91e1bda64c6fe6384c68f84149c61d70ee2a1b0b26e23e506a651756",
       "license": "CC-BY-4.0"
     },
     {
@@ -218,7 +218,7 @@
     },
     {
       "path": "templates/AGENTS.md",
-      "sha256": "049dbcfbacbb0e738adbc70fb8a3a3f4642855b7a5dd172a6dd92fd39eb0fdb1",
+      "sha256": "189409d9a3576c2bca853b2c9016879486a00c5af4155b5e4f1703fd04897b8e",
       "license": "CC0-1.0"
     },
     {
@@ -293,7 +293,7 @@
     },
     {
       "path": "templates/docs/product/upstream/README.md",
-      "sha256": "08e2f2bc950d55a1fce0beb0d0f12ee9300e2b68a2f8b0296c8f275b92ab003a",
+      "sha256": "a7be14631e78a116a58aca88a7deac50aed623dd5a70b01410c5a1c2698ea146",
       "license": "CC0-1.0"
     },
     {
